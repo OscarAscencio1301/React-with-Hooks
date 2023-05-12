@@ -1,0 +1,47 @@
+.container__view {
+    // max-height: 100vh;
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 50px;
+    padding: 50px;
+
+
+}
+
+.container__view2 {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 50px;
+
+    .elements {
+        h1 {
+            font-size: 80px;
+        }
+    
+        h2 {
+            font-size: 60px;
+        }
+
+        p {
+font-size: 25px;
+        }
+    
+    }
+
+}
+
+
+
+@media (min-width: 600px) {
+
+    .container__inicio {
+        grid-template-columns: 1fr;
+
+    }
+
+}
